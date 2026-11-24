@@ -9,10 +9,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/realme/RMX1801/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
-    vendor/realme/RMX1801/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
+    vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/embms.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
+    vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/realme/RMX1801/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
@@ -27,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/acdbdata/18321/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18321/Speaker_cal.acdb \
     vendor/realme/RMX1801/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/RMX1801/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/realme/RMX1801/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
@@ -113,6 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
+    vendor/realme/RMX1801/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
+    vendor/realme/RMX1801/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -142,11 +144,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/realme/RMX1801/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/realme/RMX1801/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-    vendor/realme/RMX1801/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
@@ -158,35 +160,37 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/imsdatadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdatadaemon.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
+    vendor/realme/RMX1801/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
+    vendor/realme/RMX1801/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.0-service.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc \
+    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
-    vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/realme/RMX1801/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/realme/RMX1801/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/realme/RMX1801/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
+    vendor/realme/RMX1801/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/realme/RMX1801/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/realme/RMX1801/proprietary/vendor/etc/qdcm_calib_data_oppo18316himax_hx83112a_1080_2340_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo18316himax_hx83112a_1080_2340_video_mode_dsi_panel.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/qdcm_calib_data_oppo18321dpt_nt36672a_1080_2340_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo18321dpt_nt36672a_1080_2340_video_mode_dsi_panel.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
@@ -195,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/realme/RMX1801/proprietary/vendor/etc/sensors/sensor_def_18321.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_18321.conf \
     vendor/realme/RMX1801/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/realme/RMX1801/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/realme/RMX1801/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/realme/RMX1801/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
     vendor/realme/RMX1801/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
@@ -253,34 +256,42 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/firmware/tp/18321/FW_NT_NF36672_TIANMA_TEST.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18321/FW_NT_NF36672_TIANMA_TEST.bin \
     vendor/realme/RMX1801/proprietary/vendor/firmware/tp/18321/LIMIT_NT_NF36672_DEPUTE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18321/LIMIT_NT_NF36672_DEPUTE.img \
     vendor/realme/RMX1801/proprietary/vendor/firmware/tp/18321/LIMIT_NT_NF36672_TIANMA.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18321/LIMIT_NT_NF36672_TIANMA.img \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
-    vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+    vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
+    vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
+    vendor/realme/RMX1801/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
-    libQTapGLES \
     libq3dtools_adreno \
     libq3dtools_esx \
     activity_recognition.sdm660 \
     audio.primary.sdm660 \
     sensors.sdm660_64 \
     vendor.oppo.hardware.camera.oppopostproc@1.0-impl \
-    vulkan.sdm660 \
     libC2D2 \
     libCB \
     libDxHdcp \
-    libI420colorconvert \
-    libOmxVpp \
     libOpenCL \
     libQSEEComAPI \
+    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -294,25 +305,18 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudioconfigstore \
     libaudioparsers \
-    libavcodec \
-    libavformat \
-    libavutil \
     libbase64 \
-    libbccQTI \
     libc2d30_bltlib \
     libcdsprpc \
+    libdapparamstorage \
     libdiag \
+    libdisplayconfig.qti \
     libdsutils \
     libfastcvadsp_stub \
     libfastcvopt \
-    libgcs-calwrapper \
-    libgcs-ipc \
-    libgcs-osal \
-    libgcs \
-    libgpustats \
+    libgpudataproducer \
     libgsl \
     libhdmipassthru \
-    libhdr_tm \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
@@ -320,7 +324,6 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libminkdescriptor \
     libminksocket \
-    libmm-color-convertor \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_q3a_core \
@@ -333,15 +336,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_s5k2t7sx \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
-    libmmosal_proprietary \
-    libmmsw_detail_enhancement \
-    libmmsw_math \
-    libmmsw_opencl \
-    libmmsw_platform \
-    libmulawdec \
     libperfconfig \
     libperfgluelayer \
-    libpvr \
+    libperfioctl \
     libqcbor \
     libqcci_legacy \
     libqdi \
@@ -353,17 +350,13 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
-    libqseed3 \
     libqti-perfd-client \
     libqti-perfd \
     libqti-util \
     libqtigef \
     librs_adreno \
-    librs_adreno_sha1 \
-    libsdedrm \
-    libsdm-color \
-    libsdm-disp-vndapis \
     libsdsprpc \
     libseemore \
     libsensor1 \
@@ -371,23 +364,24 @@ PRODUCT_PACKAGES += \
     libsensor_thresh \
     libsensor_user_cal \
     libssc_default_listener \
-    libstagefright_soft_qtiflacdec \
+    libstagefrightdolby \
     libstface_fd_api \
-    libswresample \
     libthermalclient \
     libtinyxml2_1 \
     libvideoutils \
-    libvpphvx \
-    libvpplibrary \
     sensor_calibrate \
     sensors.ssc \
     libasphere \
+    libswdap \
+    vendor.dolby.hardware.dms@1.0 \
     vendor.oppo.hardware.camera.oppopostproc@1.0 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.memory.pasrmanager@1.0 \
+    vendor.qti.memory.pasrmanager@1.1 \
     camera.sdm660 \
     libOccluDetect \
-    libOmxVideoDSMode \
+    libOmxVpp \
     libOppoPreviewBokeh \
     libPerfectlyClearCrux \
     libPolarrRender \
@@ -2444,6 +2438,10 @@ PRODUCT_PACKAGES += \
     libdrc \
     libfilter \
     libflash_pmic \
+    libgcs-calwrapper \
+    libgcs-ipc \
+    libgcs-osal \
+    libgcs \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -2615,9 +2613,15 @@ PRODUCT_PACKAGES += \
     libmmjpeg \
     libmmjpeg_interface \
     libmmlib2d_interface \
+    libmmosal \
     libmmqjpeg_codec \
     libmmqjpegdma \
+    libmmsw_detail_enhancement \
+    libmmsw_math \
+    libmmsw_opencl \
+    libmmsw_platform \
     libmpbase \
+    libmulawdec \
     libnnp \
     libocam_common \
     libois_bu63165 \
@@ -2633,39 +2637,36 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libst_personblur \
     libst_segmentation \
+    libstagefright_soft_ac4dec \
+    libstagefright_soft_ddpdec \
     libstblur_capture_api \
     libstface_seg_ocl \
     libstfaceunlockocl \
     libsurround_3mic_proc \
-    libswscale \
     libthread_blur \
-    libvqzip \
-    libwfdcommonutils_proprietary \
-    libwfdmmservice \
+    libvpphvx \
+    libvpplibrary \
     android.frameworks.fingerprintservice@1.0 \
-    com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0_vendor \
-    com.qualcomm.qti.uceservice@2.1_vendor \
-    com.qualcomm.qti.uceservice@2.2_vendor \
-    com.qualcomm.qti.uceservice@2.3_vendor \
+    com.qualcomm.qti.uceservice@2.0 \
+    com.qualcomm.qti.uceservice@2.1 \
+    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.uceservice@2.3 \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     com.dsi.ant@1.0-impl \
-    vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.gnss@4.0-impl \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
-    vendor.qti.hardware.iop@2.0-impl \
-    vendor.qti.hardware.qccvndhal@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -2676,6 +2677,7 @@ PRODUCT_PACKAGES += \
     lib-imsrcsbaseimpl \
     lib-imsvtcore \
     lib-imsxml \
+    lib-rcsconfig \
     lib-rtpcommon \
     lib-rtpcore \
     lib-rtpsl \
@@ -2686,17 +2688,10 @@ PRODUCT_PACKAGES += \
     libGPreqcancel \
     libGPreqcancel_svc \
     libQTEEConnector_vendor \
-    libSecureUILib \
-    libStDrvInt \
-    libUBWC \
-    libadaptlaunch \
-    libaoa \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libbatching \
     libbt-hidlclient \
     libbtnv \
+    libcacertclient \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
@@ -2708,7 +2703,7 @@ PRODUCT_PACKAGES += \
     libcpion \
     libdataitems \
     libdisp-aba \
-    libdisplayconfig.qti \
+    libdlbdsservice \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
@@ -2716,11 +2711,11 @@ PRODUCT_PACKAGES += \
     libgdtap \
     libgeofencing \
     libgnss \
-    libgnsspps \
     libgps.utils \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
+    libhdr_tm \
     libhypnusclient \
     libizat_client_api \
     libizat_core \
@@ -2728,26 +2723,20 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
     libloc_api_v02 \
     libloc_core \
-    libloc_socket \
     liblocation_api \
     liblocationservice \
     liblocationservice_glue \
     liblowi_client \
-    liblowi_wifihal \
     liblqe \
-    libmeters-ns \
     libmm-hdcpmgr \
-    libmmosal \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
     liboemaids_vendor \
-    liboemcrypto \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
@@ -2755,15 +2744,16 @@ PRODUCT_PACKAGES += \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
+    libqdma_file_agent \
     libqisl \
     libqrtr \
+    libqseed3 \
     libqsocket \
-    libqti-iopd-client \
     libqtikeymaster4 \
     librcc \
     libril-qc-hal-qmi \
+    libril-qc-logger \
     libril-qc-ltedirectdisc \
-    libril-qc-qmi-1 \
     libril-qc-radioconfig \
     libril-qcril-hook-oem \
     librilqmiservices \
@@ -2780,58 +2770,49 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker_stub \
     libscvePanorama \
     libscvePanorama_lite \
+    libsdm-color \
     libsdm-diag \
+    libsdm-disp-vndapis \
     libsdmextension \
-    libsecureui \
-    libsecureui_svcsock \
     libsettings \
-    libsi \
-    libslimclient \
+    libsoc_helper \
     libssd \
-    libstreamparser \
     libsubsystem_control \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
-    libthermalfeature \
     libtime_genoff \
-    libtrustedapploader \
     libtzdrmgenprov \
     libwms \
     libwqe \
-    libwvhidl \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     qcrild_librilutils \
     qtibus \
     qtimutex \
     vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
     vendor.display.postproc@1.0 \
+    vendor.dolby.hardware.dms@1.0-impl \
     vendor.oppo.hardware.hypnus@1.0 \
-    vendor.oppo.hardware.radio.oppoappradio@1.0 \
-    vendor.oppo.hardware.radio.opporadio@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
-    vendor.qti.data.factory@2.3 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
     vendor.qti.gnss@2.0 \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -2840,21 +2821,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds@1.0 \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.factory@1.0 \
     vendor.qti.hardware.factory@1.1 \
     vendor.qti.hardware.fm@1.0_vendor \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0_vendor \
-    vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0_vendor \
+    vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
     vendor.qti.hardware.radio.ims@1.2 \
@@ -2862,56 +2836,59 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.ims@1.4 \
     vendor.qti.hardware.radio.ims@1.5 \
     vendor.qti.hardware.radio.ims@1.6 \
+    vendor.qti.hardware.radio.ims@1.7 \
     vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
     vendor.qti.hardware.radio.lpa@1.0 \
+    vendor.qti.hardware.radio.lpa@1.1 \
     vendor.qti.hardware.radio.qcrilhook@1.0 \
     vendor.qti.hardware.radio.qtiradio@1.0 \
     vendor.qti.hardware.radio.qtiradio@2.0 \
     vendor.qti.hardware.radio.qtiradio@2.1 \
     vendor.qti.hardware.radio.qtiradio@2.2 \
     vendor.qti.hardware.radio.qtiradio@2.3 \
+    vendor.qti.hardware.radio.qtiradio@2.4 \
     vendor.qti.hardware.radio.uim@1.0 \
     vendor.qti.hardware.radio.uim@1.1 \
     vendor.qti.hardware.radio.uim@1.2 \
     vendor.qti.hardware.radio.uim_remote_client@1.0 \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
+    vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
+    vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.tui_comm@1.0 \
+    vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.factory@1.0 \
     vendor.qti.ims.rcsconfig@1.0 \
     vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    dirac-capiv2 \
-    dirac_resource \
-    libFastRPC_AUE_Forward_skel \
-    libFastRPC_UTF_Forward_800h_skel \
-    libFastRPC_UTF_Forward_Qtc2_skel \
-    libVDHexagonBlurless_v2_skel \
-    libVDHexagonSuperPhoto_skel \
-    libadsp_fd_skel \
-    libadsp_hvx_add_constant \
-    libadsp_hvx_skel \
-    libapps_mem_heap \
-    libdepthmap_skel \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvadsp_skel \
-    libscveBlobDescriptor_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libthread_blur_skel \
-    libvpp_svc_skel \
-    com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
+    vendor_lib_rfsa_adsp_dirac-capiv2_so \
+    vendor_lib_rfsa_adsp_dirac_resource_dar \
+    vendor_lib_rfsa_adsp_libFastRPC_AUE_Forward_skel_so \
+    vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_800h_skel_so \
+    vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_Qtc2_skel_so \
+    vendor_lib_rfsa_adsp_libVDHexagonBlurless_v2_skel_so \
+    vendor_lib_rfsa_adsp_libVDHexagonSuperPhoto_skel_so \
+    vendor_lib_rfsa_adsp_libadsp_fd_skel_so \
+    vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so \
+    vendor_lib_rfsa_adsp_libadsp_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libdepthmap_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_skel_so \
+    vendor_lib_rfsa_adsp_libscveBlobDescriptor_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libthread_blur_skel_so \
+    vendor_lib_rfsa_adsp_libvpp_svc_skel_so \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     fm_helium \
     lib-imscamera \
     lib-imsvideocodec \
@@ -2926,13 +2903,8 @@ PRODUCT_PACKAGES += \
     libfm-hci \
     libimscamera_jni \
     libimsmedia_jni \
-    libqcc \
-    libqcc_file_agent_sys \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0-halimpl \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     CACertService \
     CneApp \
@@ -2940,22 +2912,17 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
-    imssettings \
-    uceShimService \
+    embms \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     audiosphere \
-    tcmclient \
     com.qti.dpmframework \
     dpmapi \
+    embmslibrary \
     qcrilhook \
-    qti-telephony-common \
     vendor.qti.hardware.soter-V1.0-java \
-    android.hardware.gnss@2.1-service-qti.xml \
-    manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.qti.gnss@4.0-service.xml \
-    ATFWD-daemon \
+    vendor.qti.gnss@4.3-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -2963,34 +2930,28 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     dpmQmiMgr \
     dspservice \
-    energy-awareness \
     hdcp1prov \
     hdcp2p2prov \
     hvdcp_opti \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.drm@1.3-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.keymaster@3.0-service-qti \
-    android.hardware.keymaster@4.0-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
+    vendor.dolby.hardware.dms@1.0-service \
     vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor.oppo.hardware.hypnus@1.0-service \
-    vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.factory@1.0-service \
-    vendor.qti.hardware.perf@2.0-service \
-    vendor.qti.hardware.qccvndhal@1.0-service \
+    vendor.qti.hardware.perf@2.2-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
-    vendor.qti.hardware.tui_comm@1.0-service-qti \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
     imsrcsd \
-    init.qcom.sensors \
     irsc_util \
     loc_launcher \
     lowi-server \
@@ -3004,7 +2965,6 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
-    qcc-trd \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
@@ -3012,8 +2972,6 @@ PRODUCT_PACKAGES += \
     qti \
     rmt_storage \
     sensors.qti \
-    ssgqmigd \
-    ssgtzd \
     ssr_setup \
     subsystem_ramdump \
     tftp_server \
@@ -3021,16 +2979,4 @@ PRODUCT_PACKAGES += \
     time_daemon \
     xtra-daemon \
     xtwifi-client \
-    xtwifi-inet-agent \
-    dpmd \
-    qccsyshalservice
-
-PRODUCT_PACKAGES += \
-    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
-    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
-    vendor_lib_libEGL_adreno_so \
-    vendor_lib_libGLESv2_adreno_so \
-    vendor_lib_libq3dtools_adreno_so \
-    vendor_lib64_libEGL_adreno_so \
-    vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so
+    dpmd
